@@ -1,0 +1,50 @@
+.prl-8{
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+
+.bd-t{
+    border-top: 1px solid #EAEAEA;
+}
+
+.baqar{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.06em;
+}
+
+.txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.dash{
+    padding-left: 7px;
+    padding-right: 5px;
+    font-size: 17px;
+}
+
+.jcs{
+    justify-content: start;
+}
+
+@media only screen and (max-width: 770px) {
+    .prl-8{
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .jcs{
+        justify-content: center;
+    }
+    .prl-8{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}

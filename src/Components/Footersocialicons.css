@@ -1,0 +1,9 @@
+.jce{
+    justify-content: end;
+}
+
+@media only screen and (max-width: 500px) {
+    .jce{
+        justify-content: center;
+    }
+}

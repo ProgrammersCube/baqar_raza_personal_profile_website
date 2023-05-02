@@ -1,0 +1,40 @@
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #0D192C;
+    text-align: justify;
+}
+
+.W-Fit{
+    width: -webkit-fill-available;
+}
+
+.cm2{
+    margin-top: 40px;
+}
+
+.cm3{
+    margin-top: 40px;
+}
+
+.cm4{
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .cm1{
+        margin-top: 35px;
+    }
+    .cm2{
+        margin-top: 20px;
+    }
+    .cm3{
+        margin-top: 20px;
+    }
+    .cm4{
+        margin-top: 10px;
+    }
+}
